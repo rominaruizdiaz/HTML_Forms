@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(/assets/background_green.PNG);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+}
+main {
+    background-color: white;
+    margin: 60px auto;
+    height: auto;
+    width: 700px;
+    padding: 30px;
+}
+form {
+    font-size: 1.3em;
+}
+select {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+}
+textarea {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    font-size: 1em;
+}
+fieldset {
+    border: none;
+    margin-bottom: 30px;
+}
+button {
+    background-image: url(/assets/background_green.PNG);
+    margin: 20px 0 10px 0;
+    width: 100%;
+    height: auto;
+    font-size: 1.3em;
+}
+#form-text > input {  
+    padding: 10px;
+    display: block;
+    width: 97%;
+    cursor: text;
+    margin-top: 10px;
+}
+#form-text > input {  
+    padding: 10px;
+    display: block;
+    width: 97%;
+    cursor: text;
+    margin-top: 10px;
+}
+#form-text > label {  
+    display: block;
+    margin-top: 20px;
+}
+#form-choose > label , #form-checkbox > label{ 
+    display: block; 
+    margin: 15px 0 10px 10px;
+}
+#form-checkbox input {
+    width: 20px;
+    height: 20px;
+}
